@@ -1,0 +1,262 @@
+:root {
+  --link-color: #2e2f42;
+  --link-color_hover: ;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+  --icons-background: #4d5ae5;
+  --icons-color: #f4f4fd;
+  --icons-color--hover: pink;
+}
+
+* {
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+  cursor: pointer;
+}
+
+.global-header {
+  background-color: #ffffff;
+}
+
+.global-header .main-nav a,
+.global-header .main-nav:visited {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.global-header .contact,
+.global-header .contact:visited {
+  color: var(--link-color);
+  font-size: 1rem;
+  line-height: 2.4rem;
+}
+
+.logo-header {
+  color: #2e2f42;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.logo-header::before {
+  content: "WEB";
+  color: #4d5ae5;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.global-header .contact .global-header .contact:visited {
+  color: var(--link-color);
+}
+
+.all-section .all-button {
+  cursor: pointer;
+  background-color: #404bbf;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  initial-letter-align: 4%;
+  align-content: center;
+  width: 4rem;
+  border: 1px;
+}
+
+.all-section .all-button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.all-section button {
+  cursor: pointer;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.4rem;
+  initial-letter-align: 4%;
+  align-content: center;
+  border: 1px #f4f4fd solid;
+}
+
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+p {
+  color: #434455;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.global-footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.logo-footer::before {
+  content: "WEB";
+  color: #4d5ae5;
+  font-family: var(--second-family);
+  font-weight: 800;
+}
+
+.global-footer .paragraph-footer {
+  color: #f4f4fd;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75rem;
+  margin-left: 12rem;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav {
+  width: 16rem;
+  margin-right: 10rem;
+}
+
+a.contact {
+  padding-left: 7rem;
+}
+
+.all-section .section-container ul {
+  width: 38rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25rem;
+  gap: 1.5rem;
+  padding-top: 6rem;
+  padding-bottom: 4.5rem;
+}
+
+div.container-portfolio {
+  width: 75rem;
+  height: 26.25rem;
+  margin-left: 9.75rem;
+  margin-top: 3rem;
+}
+
+div.container-portfolio ul {
+  display: flex;
+  width: 75rem;
+  height: 26.25rem;
+}
+
+.card {
+  width: 22.5rem;
+  height: 26.25rem;
+  margin-right: 1.5rem;
+}
+
+.card img {
+  width: 22.5rem;
+  height: 18.75rem;
+}
+
+.card-content {
+  width: 22.5rem;
+  height: 3.5rem;
+  padding-top: 2rem;
+}
+
+div.card-content h3 {
+  margin-left: 1rem;
+}
+
+div.card-content p {
+  margin-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.global-footer {
+  height: 19.5rem;
+  margin-top: 7.5rem;
+}
+
+.container-footer {
+  width: 16.5rem;
+  height: 7rem;
+  padding-left: 9.75rem;
+  padding-top: 6.25rem;
+}
+
+.icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  margin-top: 0.8rem;
+}
+
+.icons-list .icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.icons-list .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--icons-color);
+  width: 4rem;
+  height: 4rem;
+  background: var(--icons-background);
+  border-radius: 50%;
+}
+
+.icons-list .icon:hover,
+.icons-list .icon:active {
+  background-color: var(--icons-color--hover);
+}
+
+.icons-list .icon:focus {
+  color: var(--icons-color);
+}
+
+.social-media {
+  width: 20.8rem;
+  height: 8rem;
+  padding-top: 5rem;
+}
+
+.social-media p {
+  color: #ffffff;
+}
+
+.footer-container ul {
+  display: flex;
+  gap: 5.4rem;
+}
