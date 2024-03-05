@@ -29,8 +29,8 @@ a:visited {
 .global-header .main-nav a,
 .global-header .main-nav:visited {
   font-weight: 500;
-  font-size: 1rem;
-  line-height: 2.4rem;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -46,14 +46,21 @@ a {
 .global-header .contact,
 .global-header .contact:visited {
   color: var(--link-color);
-  font-size: 1rem;
-  line-height: 2.4rem;
+  width: 153px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 181px;
+  padding-left: 0;
 }
 
 .logo-header {
   color: #2e2f42;
   font-family: var(--second-family);
   font-weight: 800;
+  margin-top: 24px;
+  width: 115px;
+  height: 24px;
 }
 
 .logo-header::before {
@@ -71,12 +78,12 @@ a {
   cursor: pointer;
   background-color: #404bbf;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 2.4rem;
+  line-height: 24px;
   initial-letter-align: 4%;
   align-content: center;
-  width: 4rem;
+  width: 68px;
   border: 1px;
 }
 
@@ -90,8 +97,8 @@ a {
   background-color: #f4f4fd;
   color: #4d5ae5;
   font-weight: 500;
-  font-size: 1rem;
-  line-height: 2.4rem;
+  font-size: 16px;
+  line-height: 24px;
   initial-letter-align: 4%;
   align-content: center;
   border: 1px #f4f4fd solid;
@@ -100,14 +107,14 @@ a {
 h3 {
   color: #2e2f42;
   font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 p {
   color: #434455;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .global-footer {
@@ -129,96 +136,124 @@ p {
 
 .global-footer .paragraph-footer {
   color: #f4f4fd;
+  width: 264px;
+  height: 88px;
+}
+
+.global-footer .social-media {
+  width: 208px;
+  height: 80px;
+  margin-left: 560px;
+}
+
+.social-media p {
+  width: 208px;
+  height: 24px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .container {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  width: 75rem;
-  margin-left: 12rem;
+  margin-block-start: auto;
+  width: 1200px;
+  height: 72px;
+  margin-left: 200px;
 }
 
 .main-nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  width: 261px;
+  height: 24px;
+  margin-top: 24px;
+  margin-left: 156px;
+  padding-left: 0;
+}
+
+.main-nav ul li {
+  margin-right: 24px;
 }
 
 .main-nav {
-  width: 16rem;
-  margin-right: 10rem;
+  width: 417px;
 }
 
 a.contact {
-  padding-left: 7rem;
+  padding-left: 112px;
+  margin-top: 24px;
 }
 
 .all-section .section-container ul {
-  width: 38rem;
+  width: 608px;
   display: flex;
   justify-content: space-between;
-  margin-left: 25rem;
-  gap: 1.5rem;
-  padding-top: 6rem;
-  padding-bottom: 4.5rem;
+  margin-left: 400px;
+  gap: 24px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 div.container-portfolio {
-  width: 75rem;
-  height: 26.25rem;
-  margin-left: 9.75rem;
-  margin-top: 3rem;
+  width: 1200px;
+  height: 420px;
+  margin-left: 156px;
+  margin-top: 48px;
 }
 
 div.container-portfolio ul {
   display: flex;
-  width: 75rem;
-  height: 26.25rem;
+  width: 1200px;
+  height: 420px;
 }
 
 .card {
-  width: 22.5rem;
-  height: 26.25rem;
-  margin-right: 1.5rem;
+  width: 360px;
+  height: 420px;
+  margin-right: 24px;
 }
 
 .card img {
-  width: 22.5rem;
-  height: 18.75rem;
+  width: 360px;
+  height: 300px;
 }
 
 .card-content {
-  width: 22.5rem;
-  height: 3.5rem;
-  padding-top: 2rem;
+  width: 360px;
+  height: 56px;
+  padding-top: 32px;
 }
 
 div.card-content h3 {
-  margin-left: 1rem;
+  margin-left: 16px;
 }
 
 div.card-content p {
-  margin-left: 1rem;
-  padding-bottom: 0.5rem;
+  margin-left: 16px;
+  padding-bottom: 8px;
 }
 
 .global-footer {
-  height: 19.5rem;
-  margin-top: 7.5rem;
+  height: 312px;
+  margin-top: 120px;
 }
 
 .container-footer {
-  width: 16.5rem;
-  height: 7rem;
-  padding-left: 9.75rem;
-  padding-top: 6.25rem;
+  width: 264px;
+  height: 112px;
+  padding-left: 156px;
+  padding-top: 100px;
 }
 
 .icons-list {
   display: flex;
   justify-content: center;
-  gap: 2.4rem;
-  margin-top: 0.8rem;
+  width: 208px;
+  height: 40px;
+  gap: 24px;
+  margin-top: 8px;
 }
 
 .icons-list .icon svg {
@@ -231,8 +266,8 @@ div.card-content p {
   justify-content: center;
   align-items: center;
   color: var(--icons-color);
-  width: 4rem;
-  height: 4rem;
+  width: 40px;
+  height: 40px;
   background: var(--icons-background);
   border-radius: 50%;
 }
@@ -244,19 +279,4 @@ div.card-content p {
 
 .icons-list .icon:focus {
   color: var(--icons-color);
-}
-
-.social-media {
-  width: 20.8rem;
-  height: 8rem;
-  padding-top: 5rem;
-}
-
-.social-media p {
-  color: #ffffff;
-}
-
-.footer-container ul {
-  display: flex;
-  gap: 5.4rem;
 }
